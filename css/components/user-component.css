@@ -1,11 +1,8 @@
 .user-component {
-    display: flex;
+    justify-content: space-between;
 }
 
-.user-component__coloumn{
-    display: flex;
-    align-items: center;
-}
+.user-component,
 .user-component__coloumn:first-child {
     display: flex;
     align-items: center;
@@ -32,4 +29,18 @@
 .user-component__avater--xl {
     width: 80px;
     height: 80px;
+}
+
+.user-component__avater--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.user-component__title--not-bold {
+    font-weight: 400;
+}
+
+.user-component__coloumn:last-child {
+    color: rgba(0, 0, 0, 0.5);
 }
