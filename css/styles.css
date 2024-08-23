@@ -6,9 +6,11 @@
 @import "/css/components/nav-ber.css";
 @import "/css/components/screen-header.css";
 @import "/css/components/user-component.css";
+@import "/css/components/badge.css";
 /* Screens */
 @import "/css/screens/login.css";
 @import "/css/screens/friends.css";
+@import "/css/screens/find.css";
 
 body {
     font-family: "Open Sans", sans-serif;
