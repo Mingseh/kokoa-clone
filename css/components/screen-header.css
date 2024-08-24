@@ -16,3 +16,7 @@
 .screen-header__icons span {
     margin-left: 25px;
 }
+
+.screen-header__icons span a {
+    color: rgba(0, 0, 0, 0.8)
+}
